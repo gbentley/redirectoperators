@@ -90,7 +90,7 @@ class RedirectOperators
     		// header("HTTP/1.1 303 See Other")
    		   		
     		header("Location: $schema://$host$to");
-    		exit();
+    		eZExecution::cleanExit();
 	}
     }
     
@@ -112,7 +112,7 @@ class RedirectOperators
     		// header("HTTP/1.1 303 See Other")
 
     		header("Location: $to");
-    		exit();
+    		eZExecution::cleanExit();
 	}
     }   
 

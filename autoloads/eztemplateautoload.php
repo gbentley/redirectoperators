@@ -5,7 +5,7 @@
 $eZTemplateOperatorArray = array();
 
 $eZTemplateOperatorArray[] =
-  array( 'script' => 'extension/RedirectOperators/autoloads/redirectoperators.php',
+  array( 'script' => 'extension/redirectoperators/autoloads/redirectoperators.php',
          'class' => 'RedirectOperators',
          'operator_names' => array( 'redirectabsolute', 'redirectrelative' ) );
 
